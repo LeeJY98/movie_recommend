@@ -11,7 +11,9 @@
 Filtering 을 사용할 것을 고려하였으나 사용자 데이터를 반영하지 않고 콘텐츠 내부에서만 결정하는 한계가 존재함. 따라서 사용자 데이터를 반영하는 CF 방식을 사용
 #### 2. CF 적용 프로세스
 + 사용한 데이터 (movie.csv / ratings.csv)
+
 ![image](https://user-images.githubusercontent.com/79441145/134026892-0d65f046-4384-494d-9348-ed6b7793257f.png)
+
 ![image](https://user-images.githubusercontent.com/79441145/134026990-df53b10c-9da2-4f3f-bd6a-bd2d71a65749.png)
 + 데이터 전처리 (불필요한 데이터의 삭제 및 데이터 합병)
   + ratings.csv의 colums 중 timestamp가 추천 시스템에 부적합한 데이터이므로 삭제
